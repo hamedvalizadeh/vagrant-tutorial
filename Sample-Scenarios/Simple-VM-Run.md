@@ -14,7 +14,7 @@ vagrant init
 
 
 
-this will create a file named `Vagrantfile` in directory `vagrant-test`; open it and replace line containing command `config.vm.box = "base"` with `config.vm.box = "hashicorp/bionic64"`, and remove all commands. final content of the `Vagrantfile` should be as follow:
+this will create a file named `Vagrantfile` in directory `vagrant-test`; open it and replace line containing command `config.vm.box = "base"` with `config.vm.box = "hashicorp/bionic64"`, and remove all comments. final content of the `Vagrantfile` should be as follow:
 
 ```powershell
 Vagrant.configure("2") do |config|
