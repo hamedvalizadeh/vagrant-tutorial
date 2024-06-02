@@ -52,3 +52,28 @@ vagrant up
 
 
 
+# list boxes
+
+to see the list of downloaded boxes in local machine, execute the following command:
+
+```powershell
+vagrant box list
+```
+
+
+
+# remove a box
+
+to remove the physical files related to the image of a box from your local machine use the `remove` command; say we want to remove box `hashicorp/bionic64`, execute the following command:
+
+```powershell
+vagrant box remove hashicorp/bionic64
+```
+
+  
+
+# sync VM and guest files
+
+we have a directory that our `Vagrantfile` exists inside it and we created our `VM` by running this `vagrantfile`; say this directory name is `my-gust-machine-vagrant-dir`. all contents that resides in the directory `my-gust-machine-vagrant-dir`, are shared between `VM` running and  gust machine.
+
+inside root directory of the running `VM` there is a directory named `vagrant`, which is synced with directory `my-gust-machine-vagrant-dir`. it means every file inside `my-gust-machine-vagrant-dir` do exists in `vagrant` directory of the `VM` machine.  
