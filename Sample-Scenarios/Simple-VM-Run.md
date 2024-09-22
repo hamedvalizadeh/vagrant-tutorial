@@ -38,7 +38,7 @@ vagrant up
 
   
 
-anther completing the execution of the above command, you will have a new VM in your `oracle VM VirtualBox` list that is in running mode.
+after completing the execution of the above command, you will have a new VM in your `oracle VM VirtualBox` list that is in running mode.
 
 
 
