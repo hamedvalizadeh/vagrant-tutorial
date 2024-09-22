@@ -10,7 +10,7 @@ everything in vagrant is based on box.
 
 based on my understanding, box is an immutable image that make it possible to create our VM based on it, and extend it (for example install a specific package in VM before run it).
 
-you can search your desire box in repository :
+you can search your desire box in repository  (https://app.vagrantup.com/boxes/search):
 
 [Vagrant]: https://app.vagrantup.com/boxes/search	"Vagrant Box Repository"
 
@@ -40,7 +40,7 @@ end
 
 
 
-by executing above command, if box `hashicorp/bionic64` exists in your local machine, vagrant will use it and then run a VM based on it, or download it from vagrant box repository and then run a VM based on it.
+by executing above command, if box `hashicorp/bionic64` exists in your local machine, vagrant will use it and then run a VM based on it, otherwise (if the box does not exists on local machine) download it from vagrant box repository and then run a VM based on it.
 
 
 
